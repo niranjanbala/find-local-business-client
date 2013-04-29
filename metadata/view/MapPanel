@@ -1,0 +1,17 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MapPanel",
+        "designer|userAlias": "mypanel2",
+        "height": 369,
+        "maxHeight": 200,
+        "title": null
+    },
+    "id": "ExtBox1-ext-gen2774",
+    "designerId": "d2829e17-710a-4aa8-8a9f-509b5f022f28"
+}

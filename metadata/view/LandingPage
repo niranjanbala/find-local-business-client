@@ -1,0 +1,49 @@
+{
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "LandingPage",
+        "designer|initialView": true,
+        "style": [
+            "{\r",
+            "    background-color: grey\r",
+            "}"
+        ],
+        "layout": "hbox"
+    },
+    "id": "ExtBox1-ext-gen2835",
+    "designerId": "f5ab0049-a6a8-4104-aeb8-aa1bf110a428",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1
+            },
+            "designerId": "db0f63c9-26ad-4b7a-ba9a-202b8bf7e1b4",
+            "masterInstanceId": "ExtBox1-ext-gen4097"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1
+            },
+            "designerId": "a7e2b0a2-6b05-4392-9f81-4dfdf5e4cc31",
+            "masterInstanceId": "ExtBox1-ext-gen5204"
+        }
+    ]
+}

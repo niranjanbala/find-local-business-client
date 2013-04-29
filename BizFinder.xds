@@ -1,0 +1,75 @@
+{
+    "name": "BizFinder",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "D:/NIRANJAN/PERSONAL/application/FindBusiness/war",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 678,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "97f80fcc-ab2e-451c-93e9-636b725a9184": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "f5ab0049-a6a8-4104-aeb8-aa1bf110a428": {
+            "paths": [
+                "metadata/view/LandingPage",
+                "app/view/override/LandingPage.js",
+                "app/view/LandingPage.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "LandingPage"
+        },
+        "4063e2d6-ae89-4964-9397-f69b2a4a70cb": {
+            "paths": [
+                "metadata/view/SearchPanel",
+                "app/view/override/SearchPanel.js",
+                "app/view/SearchPanel.js"
+            ],
+            "className": "SearchPanel"
+        },
+        "87dbe4c1-620d-4740-a420-7e22bf92d90f": {
+            "paths": [
+                "metadata/view/MapResultPanel",
+                "app/view/override/MapResultPanel.js",
+                "app/view/MapResultPanel.js"
+            ],
+            "className": "MapResultPanel"
+        },
+        "d2829e17-710a-4aa8-8a9f-509b5f022f28": {
+            "paths": [
+                "metadata/view/MapPanel",
+                "app/view/override/MapPanel.js",
+                "app/view/MapPanel.js"
+            ],
+            "className": "MapPanel"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "f5ab0049-a6a8-4104-aeb8-aa1bf110a428",
+            "4063e2d6-ae89-4964-9397-f69b2a4a70cb",
+            "87dbe4c1-620d-4740-a420-7e22bf92d90f",
+            "d2829e17-710a-4aa8-8a9f-509b5f022f28"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "97f80fcc-ab2e-451c-93e9-636b725a9184"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

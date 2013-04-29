@@ -1,0 +1,15 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MapResultPanel",
+        "designer|userAlias": "mypanel11",
+        "title": null
+    },
+    "id": "ExtBox1-ext-gen5204",
+    "designerId": "87dbe4c1-620d-4740-a420-7e22bf92d90f"
+}

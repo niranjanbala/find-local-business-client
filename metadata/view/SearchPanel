@@ -1,0 +1,63 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "SearchPanel",
+        "designer|userAlias": "mypanel",
+        "maxWidth": 300,
+        "width": 300,
+        "autoScroll": true,
+        "layout": "vbox",
+        "title": "Search"
+    },
+    "id": "ExtBox1-ext-gen4097",
+    "designerId": "4063e2d6-ae89-4964-9397-f69b2a4a70cb",
+    "cn": [
+        {
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTextField",
+                "fieldLabel": null
+            },
+            "designerId": "565c9bd0-a7b5-4e9c-8657-edf1a4d5e340"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "maxHeight": 300
+            },
+            "designerId": "df71d3a5-bbdf-4ae6-a419-346dfbba0842",
+            "masterInstanceId": "ExtBox1-ext-gen2774"
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "designer|userClassName": "MyPanel3",
+                "title": "Results"
+            },
+            "designerId": "e96f674c-b8a6-4441-a129-2780a07aaeb6"
+        }
+    ]
+}
